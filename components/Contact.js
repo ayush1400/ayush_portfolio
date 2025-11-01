@@ -24,7 +24,7 @@ export default function Contact() {
     setStatus('sending');
 
     try {
-      const API_URL = process.env.NEXT_PUBLIC_API_URL || 'http://localhost:8000/api';
+      const API_URL = 'https://portfolio-backend-1-hcy4.onrender.com/api' || 'http://localhost:8000/api';
       await axios.post(`${API_URL}/contact/`, formData);
       setStatus('success');
       setFormData({ name: '', email: '', subject: '', message: '' });

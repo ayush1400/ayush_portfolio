@@ -22,7 +22,7 @@ export default function Projects({ projects }) {
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
             {projects.length === 0 ? (
               <div className="col-span-full text-center text-gray-400">
-                No projects yet. Add some from the Django admin panel!
+                No projects yet.
               </div>
             ) : (
               projects.map((project, index) => (

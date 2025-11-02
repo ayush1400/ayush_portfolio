@@ -28,7 +28,7 @@ export default function Skills({ skills }) {
 
           {Object.keys(groupedSkills).length === 0 ? (
             <div className="text-center text-gray-400">
-              No skills yet. Add some from the Django admin panel!
+              No skills yet. 
             </div>
           ) : (
             <div className="space-y-12">

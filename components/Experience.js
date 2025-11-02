@@ -24,7 +24,7 @@ export default function Experience({ experiences }) {
 
           {experiences.length === 0 ? (
             <div className="text-center text-gray-400">
-              No experience yet. Add some from the Django admin panel!
+              No experience yet. 
             </div>
           ) : (
             <div className="space-y-8">
